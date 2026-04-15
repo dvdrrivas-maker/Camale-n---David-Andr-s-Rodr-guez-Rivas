@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camaleones</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Camaleones</h1>
+        <p>Aquí puedes contactarme</p>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="detalles.html">Detalles</a>
+        <a href="galería.html">Galería</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <main>
+        <h2 class="formulario">Formulario de contacto</h2>
+        <form onsubmit="alert('Información enviada');">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" placeholder="alguien@correo.com" required><br><br>
+            <label for="fecha">Fecha de nacimiento:</label><br>
+            <input type="date" id="fecha" name="fecha" required><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <p>David Rodríguez &copy;2026 | Analista Programador - Inacap</p>
+    </footer>
+</body>
+</html>

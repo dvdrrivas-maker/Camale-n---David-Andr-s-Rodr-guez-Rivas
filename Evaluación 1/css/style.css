@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #121212;
+    color: #00E676;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    background-color: #2E7D32;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    display: block;
+    color: #f1f1f1;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #4CAF50;
+}
+main {
+    padding: 30px 60px;
+    margin-bottom: 50px;
+}
+footer {
+    background-color: #2E7D32;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+div.fuentes{
+    background-color: #2E7D32;
+    color: white;
+    border: 3px solid #4CAF50;
+    padding: 15px 20px 10px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.fuentes a {
+    color: white;
+}
+
+div.fuentes a:hover {
+    color: lightseagreen;
+}
+
+#volver {
+    color: #00E676
+}
+
+#volver:hover {
+    color: lightseagreen;
+}
+
+table, th, td {
+    border: 3px solid #4CAF50;
+    color: white;
+    background-color: #2E7D32;
+    
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 500px;
+}
+
+th, td {
+    padding: 10px 8px 10px 8px;
+}
+
+div.galería {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+div.item-galería {
+    margin: 5px;
+    border: 3px solid #2E7D32;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.item-galería:hover {
+    border: 3px solid lightseagreen;
+}
+
+div.item-galería img {
+    width: 300px; 
+    height: 200px;
+}
+
+div.item-galería p {
+    text-align: center;
+}
+
+div.descripción {
+    padding: 5px;
+    text-align: center;
+}
+
+h2.formulario{
+    text-align: center;
+}
+
+form {
+  border-radius: 5px;
+  background-color: #2E7D32;
+  color: white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+}
+
+label {display: block;}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  display: inline-block;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px;
+  display: inline-block;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=date], select {
+  width: 100%;
+  padding: 12px;
+  display: inline-block;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #121212;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: lightseagreen;
+}
